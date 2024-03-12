@@ -2,7 +2,7 @@
 title: centos7如何下载
 description: centos7如何下载
 published: true
-date: 2024-03-12T02:43:42.508Z
+date: 2024-03-12T03:00:55.931Z
 tags: centos7
 editor: markdown
 dateCreated: 2024-03-12T02:22:52.276Z
@@ -17,4 +17,3 @@ dateCreated: 2024-03-12T02:22:52.276Z
 4. 这里可以看到进入了重庆大学的下载站：
 ![centos7重大下载.png](/wiki/服务器运维/Centos/centos7重大下载.png)
 5. 点击CentOS-7-x86_64-DVD-2009.iso即可下载安装镜像Centos7.9
-## 123
