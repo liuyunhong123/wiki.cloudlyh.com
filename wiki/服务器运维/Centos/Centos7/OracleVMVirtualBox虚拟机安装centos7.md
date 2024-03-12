@@ -2,7 +2,7 @@
 title: OracleVMVirtualBox虚拟机安装centos7.9
 description: OracleVMVirtualBox虚拟机安装centos7.9
 published: true
-date: 2024-03-12T04:02:37.640Z
+date: 2024-03-12T08:19:20.556Z
 tags: centos7
 editor: markdown
 dateCreated: 2024-03-12T03:11:54.377Z
@@ -19,7 +19,10 @@ dateCreated: 2024-03-12T03:11:54.377Z
 ![vmbox新建虚拟机硬件配置.png](/wiki/服务器运维/Centos/vmbox新建虚拟机硬件配置.png)
 ## 5. 新建虚拟硬盘
 ![vmbox新建虚拟硬盘.png](/wiki/服务器运维/Centos/vmbox新建虚拟硬盘.png)
-
-
-
+## 6. 检查配置后点击完成
+![vmbox虚拟机配置.png](/wiki/服务器运维/Centos/vmbox虚拟机配置.png)
+## 7. 启动centos7.9虚拟机设置
+![启动centos7.9虚拟机设置.png](/wiki/服务器运维/Centos/启动centos7.9虚拟机设置.png)
+## 8. 设置启动引导
+![vmbox设置启动引导.png](/wiki/服务器运维/Centos/vmbox设置启动引导.png)
 
