@@ -2,7 +2,7 @@
 title: Pycharm下载安装教程
 description: Pycharm下载安装教程
 published: true
-date: 2024-03-18T02:51:16.913Z
+date: 2024-03-18T03:20:40.634Z
 tags: python, pycharm
 editor: markdown
 dateCreated: 2024-03-18T02:15:05.647Z
@@ -27,9 +27,11 @@ https://www.jetbrains.com.cn/pycharm/download/?section=windows
 ![ptcharm社区版安装02.png](/wiki/python/pycharm/ptcharm社区版安装02.png)
 4. 创建快捷方式可选，添加环境变量必选：
 ![ptcharm社区版安装03.png](/wiki/python/pycharm/ptcharm社区版安装03.png)
-
-
-
-
-
+5. 开始菜单文件夹，默认即可，：
+![pycharm社区版安装04.png](/wiki/python/pycharm/pycharm社区版安装04.png)
+6. 开始安装
+![pycharm社区版安装05.png](/wiki/python/pycharm/pycharm社区版安装05.png)
+7. 安装完成之后需要重启，记得保存你正在工作的文件，然后再重启计算机：
+![pycharm社区版安装06.png](/wiki/python/pycharm/pycharm社区版安装06.png)
+8. 安装完成
 
