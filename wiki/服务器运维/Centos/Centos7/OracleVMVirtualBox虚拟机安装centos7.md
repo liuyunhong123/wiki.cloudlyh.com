@@ -2,7 +2,7 @@
 title: OracleVMVirtualBox虚拟机安装centos7.9
 description: OracleVMVirtualBox虚拟机安装centos7.9
 published: true
-date: 2024-03-22T12:02:03.087Z
+date: 2024-03-22T12:02:31.398Z
 tags: centos7
 editor: markdown
 dateCreated: 2024-03-12T03:11:54.377Z
@@ -75,7 +75,7 @@ dateCreated: 2024-03-12T03:11:54.377Z
 我这里设置的是一个普通账户，没有勾选作为管理员
 无论是密码还是账户还有权限都是可以修改的
 ![设置一个普通用户.png](/wiki/服务器运维/Centos/设置一个普通用户.png)
-### 22. 系统安装完成，点击完成配置即可(系统会自动重启)
+### 22. 系统安装完成，点击完成配置即可(系统会配置相关参数然后自动重启)
 ![系统安装完成.png](/wiki/服务器运维/Centos/系统安装完成.png)
 
 
