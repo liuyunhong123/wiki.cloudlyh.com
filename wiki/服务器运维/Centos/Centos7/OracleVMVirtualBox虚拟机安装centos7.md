@@ -2,7 +2,7 @@
 title: OracleVMVirtualBox虚拟机安装centos7.9
 description: OracleVMVirtualBox虚拟机安装centos7.9
 published: true
-date: 2024-03-22T11:35:48.808Z
+date: 2024-03-22T11:45:15.028Z
 tags: centos7
 editor: markdown
 dateCreated: 2024-03-12T03:11:54.377Z
@@ -57,9 +57,9 @@ dateCreated: 2024-03-12T03:11:54.377Z
 ![配置静态ip.png](/wiki/服务器运维/Centos/配置静态ip.png)
 ### 14. 设置静态ip地址子网掩码网关和dns
 ![设置静态ip地址子网掩码网关和dns.png](/wiki/服务器运维/Centos/设置静态ip地址子网掩码网关和dns.png)
-### 15. 
-
-
+### 15. 静态ip配置完成
+![静态ip配置完成.png](/wiki/服务器运维/Centos/静态ip配置完成.png)
+### 16. 
 
 
 
