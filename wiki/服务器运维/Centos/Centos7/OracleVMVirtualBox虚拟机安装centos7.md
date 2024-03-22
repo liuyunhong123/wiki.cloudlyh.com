@@ -2,7 +2,7 @@
 title: OracleVMVirtualBox虚拟机安装centos7.9
 description: OracleVMVirtualBox虚拟机安装centos7.9
 published: true
-date: 2024-03-22T08:32:36.474Z
+date: 2024-03-22T08:38:01.681Z
 tags: centos7
 editor: markdown
 dateCreated: 2024-03-12T03:11:54.377Z
@@ -39,9 +39,9 @@ dateCreated: 2024-03-12T03:11:54.377Z
 ![手动分区之自动分区.png](/wiki/服务器运维/Centos/手动分区之自动分区.png)
 ### 5. 设备类型建议LVM，文件系统建议XFS，因为这样后期可以扩容或者修复损坏文件
 ![分区含义.png](/wiki/服务器运维/Centos/分区含义.png)
-
-
-
+### 6. 分区介绍
+![分区介绍.png](/wiki/服务器运维/Centos/分区介绍.png)
+### 7. 
 
 
 
