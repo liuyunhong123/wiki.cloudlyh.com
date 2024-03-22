@@ -2,7 +2,7 @@
 title: OracleVMVirtualBox虚拟机安装centos7.9
 description: OracleVMVirtualBox虚拟机安装centos7.9
 published: true
-date: 2024-03-22T11:54:16.031Z
+date: 2024-03-22T11:57:14.972Z
 tags: centos7
 editor: markdown
 dateCreated: 2024-03-12T03:11:54.377Z
@@ -68,8 +68,9 @@ dateCreated: 2024-03-12T03:11:54.377Z
 ![开始安装系统.png](/wiki/服务器运维/Centos/开始安装系统.png)
 ### 19. 设置密码和创建一个用户
 ![设置密码和创建一个用户.png](/wiki/服务器运维/Centos/设置密码和创建一个用户.png)
-
-
+### 20. 设置密码(密码太弱需要点击两次确认)
+我这里是演示，密码设置的：123456，不建议密码设置太弱，可能会被入侵
+![设置密码.png](/wiki/服务器运维/Centos/设置密码.png)
 
 
 
