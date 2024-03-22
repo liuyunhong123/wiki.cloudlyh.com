@@ -2,7 +2,7 @@
 title: OracleVMVirtualBox虚拟机安装centos7.9
 description: OracleVMVirtualBox虚拟机安装centos7.9
 published: true
-date: 2024-03-22T08:39:32.923Z
+date: 2024-03-22T08:41:50.740Z
 tags: centos7
 editor: markdown
 dateCreated: 2024-03-12T03:11:54.377Z
@@ -43,9 +43,9 @@ dateCreated: 2024-03-12T03:11:54.377Z
 ![分区介绍.png](/wiki/服务器运维/Centos/分区介绍.png)
 ### 7. 检查分区后点击接受更改
 ![检查分区点击完成.png](/wiki/服务器运维/Centos/检查分区点击完成.png)
-
-
-
+### 8. 配置IP和子网掩码
+![配置ip.png](/wiki/服务器运维/Centos/配置ip.png)
+### 9. 
 
 
 
