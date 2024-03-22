@@ -2,7 +2,7 @@
 title: OracleVMVirtualBox虚拟机安装centos7.9
 description: OracleVMVirtualBox虚拟机安装centos7.9
 published: true
-date: 2024-03-22T11:52:48.746Z
+date: 2024-03-22T11:54:16.031Z
 tags: centos7
 editor: markdown
 dateCreated: 2024-03-12T03:11:54.377Z
@@ -66,8 +66,8 @@ dateCreated: 2024-03-12T03:11:54.377Z
 ![kdump内存崩溃转储机制.png](/wiki/服务器运维/Centos/kdump内存崩溃转储机制.png)
 ### 18. 点击开始安装系统
 ![开始安装系统.png](/wiki/服务器运维/Centos/开始安装系统.png)
-
-
+### 19. 设置密码和创建一个用户
+![设置密码和创建一个用户.png](/wiki/服务器运维/Centos/设置密码和创建一个用户.png)
 
 
 
