@@ -2,7 +2,7 @@
 title: OracleVMVirtualBox虚拟机安装centos7.9
 description: OracleVMVirtualBox虚拟机安装centos7.9
 published: true
-date: 2024-03-22T12:06:13.473Z
+date: 2024-03-22T12:08:51.846Z
 tags: centos7
 editor: markdown
 dateCreated: 2024-03-12T03:11:54.377Z
@@ -81,7 +81,7 @@ dateCreated: 2024-03-12T03:11:54.377Z
 ![系统安装完成点击重启.png](/wiki/服务器运维/Centos/系统安装完成点击重启.png)
 ### 24. 已经重启到登录界面
 ![已经重启到登录界面.png](/wiki/服务器运维/Centos/已经重启到登录界面.png)
-### 25. 
-
-
+### 25. 第一次登录发现没有网络
+![第一次登录发现没有网络.png](/wiki/服务器运维/Centos/第一次登录发现没有网络.png)
+### 26. 
 
