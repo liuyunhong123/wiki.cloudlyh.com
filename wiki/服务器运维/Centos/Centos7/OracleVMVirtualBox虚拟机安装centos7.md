@@ -2,7 +2,7 @@
 title: OracleVMVirtualBox虚拟机安装centos7.9
 description: OracleVMVirtualBox虚拟机安装centos7.9
 published: true
-date: 2024-03-22T09:22:58.846Z
+date: 2024-03-22T11:29:21.066Z
 tags: centos7
 editor: markdown
 dateCreated: 2024-03-12T03:11:54.377Z
@@ -51,10 +51,10 @@ dateCreated: 2024-03-12T03:11:54.377Z
 ![win10打开命令提示符.png](/wiki/服务器运维/Centos/win10打开命令提示符.png)
 ### 11. win10查看本地ip
 ![win10查看本地ip.png](/wiki/服务器运维/Centos/win10查看本地ip.png)
-
-
-
-
-
+### 12. 使用win10的CMD测试可以使用的静态IP
+![可取的ip及范围.png](/wiki/服务器运维/Centos/可取的ip及范围.png)
+### 13. 配置静态IP
+![配置静态ip.png](/wiki/服务器运维/Centos/配置静态ip.png)
+### 14. 
 
 
