@@ -2,7 +2,7 @@
 title: anaconda下载安装
 description: anaconda下载安装
 published: true
-date: 2024-03-23T03:06:12.717Z
+date: 2024-03-23T03:07:16.283Z
 tags: anaconda
 editor: markdown
 dateCreated: 2024-03-23T01:46:07.789Z
@@ -80,8 +80,10 @@ C:\Users\xiaoyun-Work-PC\anaconda3\Library\bin
 ```
 (主要是看用户后面的路径：anaconda3、anaconda3\Scripts、anaconda3\Library\bin)
 
-### 6. 选中环境变更上移（完后点击确定）
+### 6. 选中环境变更上移
 ![选中环境变更上移.png](/wiki/python/anaconda/选中环境变更上移.png)
+
+### 7. 完后点击确定保存即可
 
 ## 8. cmd查询conda版本
 版本为：conda 24.1.2（说明环境变量配置成功）
