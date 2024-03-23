@@ -2,7 +2,7 @@
 title: 4.新建django项目并运行
 description: 新建django项目并运行
 published: true
-date: 2024-03-23T08:40:37.033Z
+date: 2024-03-23T08:40:54.424Z
 tags: django
 editor: markdown
 dateCreated: 2024-03-23T08:05:07.553Z
@@ -23,7 +23,7 @@ conda activate mydjango
 ```
 cd D:\DjangoWork
 ```
-### 新建项目
+### 新建项目，项目名可以自己更改
 ```
 django-admin startproject antproject
 ```
