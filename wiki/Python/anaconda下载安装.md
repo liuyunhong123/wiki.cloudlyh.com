@@ -2,7 +2,7 @@
 title: anaconda下载安装
 description: anaconda下载安装
 published: true
-date: 2024-03-23T02:30:06.619Z
+date: 2024-03-23T02:40:28.996Z
 tags: anaconda
 editor: markdown
 dateCreated: 2024-03-23T01:46:07.789Z
@@ -66,6 +66,26 @@ anaconda清华源下载站：https://mirrors.tuna.tsinghua.edu.cn/help/anaconda/
 
 ### 3. 点击path=>编辑
 ![path编辑.png](/wiki/python/anaconda/path编辑.png)
+
+### 4. 右键anaconda打开文件所在的位置
+![anaconda3安装路径.png](/wiki/python/anaconda/anaconda3安装路径.png)
+
+### 5. 新建环境变量
+![新建环境变量.png](/wiki/python/anaconda/新建环境变量.png)
+找到以下路径，新建环境变量
+```
+C:\Users\xiaoyun-Work-PC\anaconda3
+C:\Users\xiaoyun-Work-PC\anaconda3\Scripts
+C:\Users\xiaoyun-Work-PC\anaconda3\Library\bin
+```
+(主要是看用户后面的路径：anaconda3、anaconda3\Scripts、anaconda3\Library\bin)
+
+### 6. 选中环境变更上移（完后点击确定）
+![选中环境变更上移.png](/wiki/python/anaconda/选中环境变更上移.png)
+
+
+
+
 
 
 
