@@ -2,7 +2,7 @@
 title: anaconda下载安装
 description: anaconda下载安装
 published: true
-date: 2024-03-23T02:22:10.725Z
+date: 2024-03-23T02:25:14.877Z
 tags: anaconda
 editor: markdown
 dateCreated: 2024-03-23T01:46:07.789Z
@@ -57,6 +57,7 @@ anaconda清华源下载站：https://mirrors.tuna.tsinghua.edu.cn/help/anaconda/
 ![完成安装.png](/wiki/python/anaconda/完成安装.png)
 
 ## 7. 配置anaconda环境变量
+桌面=>此电脑（鼠标右键选择属性）=>高级系统设置=>环境变量
 
 
 
