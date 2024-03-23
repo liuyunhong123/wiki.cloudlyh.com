@@ -2,7 +2,7 @@
 title: 2.anaconda基础操作
 description: anaconda基础操作
 published: true
-date: 2024-03-23T03:35:35.977Z
+date: 2024-03-23T03:46:09.342Z
 tags: anaconda
 editor: markdown
 dateCreated: 2024-03-23T03:31:07.742Z
@@ -27,6 +27,10 @@ conda create -n mydjango python
 ## 4. conda激活环境
 
 
+
+
+
+## 5. conda删除环境
 
 
 
