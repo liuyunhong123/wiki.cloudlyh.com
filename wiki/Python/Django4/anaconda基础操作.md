@@ -2,7 +2,7 @@
 title: 2.anaconda基础操作
 description: anaconda基础操作
 published: true
-date: 2024-03-23T04:42:27.259Z
+date: 2024-03-23T05:20:16.759Z
 tags: anaconda
 editor: markdown
 dateCreated: 2024-03-23T03:31:07.742Z
@@ -31,7 +31,14 @@ conda activate myjango
 ![conda激活环境.png](/wiki/python/anaconda/conda基础操作/conda激活环境.png)
 
 ## 5. conda删除环境
-### 1.退出
+### 1. 退出当前环境
+```
+conda deactivate
+```
+### 2. 2.删除mydjango环境
+```
+conda env remove mydjango
+```
 ![conda删除环境.png](/wiki/python/anaconda/conda基础操作/conda删除环境.png)
 
 
