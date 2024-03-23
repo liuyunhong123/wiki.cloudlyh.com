@@ -2,7 +2,7 @@
 title: 4.新建django项目并运行
 description: 新建django项目并运行
 published: true
-date: 2024-03-23T08:31:08.913Z
+date: 2024-03-23T08:32:45.160Z
 tags: django
 editor: markdown
 dateCreated: 2024-03-23T08:05:07.553Z
@@ -26,3 +26,8 @@ cd D:\DjangoWork
 #新建项目
 django-admin startproject antproject
 ```
+
+## 3. 创建项目成功
+![创建项目成功.png](/wiki/python/django/创建项目成功.png)
+
+
