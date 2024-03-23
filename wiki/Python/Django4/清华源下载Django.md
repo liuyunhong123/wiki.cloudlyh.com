@@ -1,8 +1,8 @@
 ---
-title: 清华源下载Django
+title: 3.清华源下载Django
 description: 清华源下载Django
 published: true
-date: 2024-03-23T06:45:58.517Z
+date: 2024-03-23T06:48:24.780Z
 tags: django
 editor: markdown
 dateCreated: 2024-03-23T06:45:58.517Z
@@ -12,3 +12,5 @@ dateCreated: 2024-03-23T06:45:58.517Z
 ```
 pip install -i https://pypi.tuna.tsinghua.edu.cn/simple django
 ```
+![清华源下载django.png](/wiki/python/django/清华源下载django.png)
+
