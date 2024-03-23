@@ -2,7 +2,7 @@
 title: 2.anaconda基础操作
 description: anaconda基础操作
 published: true
-date: 2024-03-23T05:23:33.796Z
+date: 2024-03-23T06:42:13.199Z
 tags: anaconda
 editor: markdown
 dateCreated: 2024-03-23T03:31:07.742Z
