@@ -2,7 +2,7 @@
 title: 3.清华源下载Django
 description: 清华源下载Django
 published: true
-date: 2024-03-23T06:58:04.909Z
+date: 2024-03-23T06:58:21.651Z
 tags: django
 editor: markdown
 dateCreated: 2024-03-23T06:45:58.517Z
