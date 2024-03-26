@@ -2,7 +2,7 @@
 title: 4.新建django项目并运行
 description: 新建django项目并运行
 published: true
-date: 2024-03-23T08:42:33.900Z
+date: 2024-03-26T12:11:28.691Z
 tags: django
 editor: markdown
 dateCreated: 2024-03-23T08:05:07.553Z
@@ -10,6 +10,10 @@ dateCreated: 2024-03-23T08:05:07.553Z
 
 ## 1. 创建和激活Python虚拟环境
 ### 创建虚拟环境
+```
+conda create -n mydjango python
+```
+### 查看虚拟环境
 ```
 conda env list
 ```
