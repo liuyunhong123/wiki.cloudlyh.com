@@ -2,7 +2,7 @@
 title: 1.anaconda下载安装
 description: anaconda下载安装
 published: true
-date: 2024-03-23T03:09:29.313Z
+date: 2024-03-26T11:40:21.490Z
 tags: anaconda
 editor: markdown
 dateCreated: 2024-03-23T01:46:07.789Z
@@ -19,6 +19,7 @@ anaconda清华源下载站：https://mirrors.tuna.tsinghua.edu.cn/help/anaconda/
 ![anaconda清华源下载站.png](/wiki/python/anaconda/anaconda清华源下载站.png)
 
 ## 3. 点击根据时间排序
+注意：这里排序需要点击Date右边的小箭头，点击Date无效。
 ![点击根据时间排序.png](/wiki/python/anaconda/点击根据时间排序.png)
 
 ## 4. 选择您需要的版本点击后开始下载
