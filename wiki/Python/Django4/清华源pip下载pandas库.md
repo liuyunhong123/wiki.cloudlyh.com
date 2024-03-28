@@ -2,7 +2,7 @@
 title: 清华源pip下载pandas库
 description: 清华源pip下载pandas库
 published: true
-date: 2024-03-28T10:11:08.847Z
+date: 2024-03-28T10:12:06.208Z
 tags: pip
 editor: markdown
 dateCreated: 2024-03-28T10:06:43.381Z
@@ -17,6 +17,7 @@ pip install -i https://pypi.tuna.tsinghua.edu.cn/simple pandas
 ```
 ![pip清华源下载pandas.png](/wiki/python/django/pip清华源下载pandas.png)
 
-### 3.在终端输入`pip install -i https://pypi.tuna.tsinghua.edu.cn/simple pandas`即可下载pandas
+## 3.在终端输入`pip install -i https://pypi.tuna.tsinghua.edu.cn/simple pandas`即可下载pandas
 ![在终端输入pandas.png](/wiki/python/django/在终端输入pandas.png)
 
+## 4.我这里已经下载了(onda包含pandas库)
