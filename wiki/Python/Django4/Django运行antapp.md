@@ -1,8 +1,8 @@
 ---
-title: 6.Django运行antapp
+title: 7.Django运行antapp
 description: Django运行antapp
 published: true
-date: 2024-03-28T08:26:10.763Z
+date: 2024-03-28T08:27:59.525Z
 tags: django
 editor: markdown
 dateCreated: 2024-03-28T08:23:59.539Z
