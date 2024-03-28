@@ -2,7 +2,7 @@
 title: 6.Django新建应用app
 description: Django新建应用app
 published: true
-date: 2024-03-28T06:52:16.510Z
+date: 2024-03-28T06:57:40.939Z
 tags: django
 editor: markdown
 dateCreated: 2024-03-28T06:45:46.150Z
