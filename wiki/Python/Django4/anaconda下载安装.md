@@ -1,8 +1,8 @@
 ---
-title: 1.anaconda下载安装
+title: 01.anaconda下载安装
 description: anaconda下载安装
 published: true
-date: 2024-03-26T11:40:21.490Z
+date: 2024-03-30T15:55:26.722Z
 tags: anaconda
 editor: markdown
 dateCreated: 2024-03-23T01:46:07.789Z
