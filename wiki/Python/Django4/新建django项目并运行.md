@@ -1,8 +1,8 @@
 ---
-title: 4.新建django项目并运行
+title: 04.新建django项目并运行
 description: 新建django项目并运行
 published: true
-date: 2024-03-26T12:11:28.691Z
+date: 2024-03-30T15:57:14.191Z
 tags: django
 editor: markdown
 dateCreated: 2024-03-23T08:05:07.553Z
