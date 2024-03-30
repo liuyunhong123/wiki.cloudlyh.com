@@ -1,8 +1,8 @@
 ---
-title: django与ajax异步更新界面
+title: 11.django与ajax异步更新界面
 description: django与ajax异步更新界面
 published: true
-date: 2024-03-30T15:52:23.515Z
+date: 2024-03-30T15:54:58.562Z
 tags: django, ajax
 editor: markdown
 dateCreated: 2024-03-30T15:45:00.317Z
