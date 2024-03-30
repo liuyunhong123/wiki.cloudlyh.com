@@ -1,8 +1,8 @@
 ---
-title: 5.更改Django配置文件语言为中文
+title: 05.更改Django配置文件语言为中文
 description: 更改Django配置文件语言为中文
 published: true
-date: 2024-03-28T06:27:06.605Z
+date: 2024-03-30T15:57:33.358Z
 tags: django
 editor: markdown
 dateCreated: 2024-03-28T06:25:39.143Z
