@@ -2,7 +2,7 @@
 title: 10.django引入css等文件
 description: django引入css等文件
 published: true
-date: 2024-03-30T11:21:59.974Z
+date: 2024-03-30T11:55:36.414Z
 tags: django
 editor: markdown
 dateCreated: 2024-03-30T11:19:14.072Z
@@ -30,3 +30,5 @@ dateCreated: 2024-03-30T11:19:14.072Z
 ```
 {% static '需要导入的文件路径' %}
 ```
+## 5.目录图
+![django导入css文件02.png](/wiki/python/django/django导入css文件02.png)
