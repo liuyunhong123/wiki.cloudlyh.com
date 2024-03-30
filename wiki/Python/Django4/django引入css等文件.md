@@ -1,8 +1,8 @@
 ---
-title: 9.django引入css等文件
+title: 10.django引入css等文件
 description: django引入css等文件
 published: true
-date: 2024-03-30T11:21:41.656Z
+date: 2024-03-30T11:21:59.974Z
 tags: django
 editor: markdown
 dateCreated: 2024-03-30T11:19:14.072Z
