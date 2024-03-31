@@ -1,8 +1,8 @@
 ---
-title: django与Bootstrap生成网页
+title: 12.django与Bootstrap生成网页
 description: django与Bootstrap生成网页
 published: true
-date: 2024-03-31T10:58:38.692Z
+date: 2024-03-31T14:34:42.060Z
 tags: django, bootstrap
 editor: markdown
 dateCreated: 2024-03-31T10:56:57.812Z
