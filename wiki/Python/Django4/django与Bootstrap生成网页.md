@@ -2,7 +2,7 @@
 title: django与Bootstrap生成网页
 description: django与Bootstrap生成网页
 published: true
-date: 2024-03-31T10:56:57.812Z
+date: 2024-03-31T10:57:21.476Z
 tags: django, bootstrap
 editor: markdown
 dateCreated: 2024-03-31T10:56:57.812Z
@@ -22,6 +22,5 @@ path("show_excel2/", views.show_excel2),
 def show_excel2(request):
     df = pd.read_excel(BASE_DIR / "datas/数据-学生成绩表.xlsx")
     return render(request, "show_excel2.html", {"df": df})
-
 ```
 ![视图方法.png](/wiki/python/django/视图方法.png)
