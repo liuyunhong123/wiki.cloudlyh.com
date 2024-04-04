@@ -2,7 +2,7 @@
 title: django模板语法详细
 description: django模板语法详细
 published: true
-date: 2024-04-04T13:47:32.607Z
+date: 2024-04-04T13:47:47.076Z
 tags: django
 editor: markdown
 dateCreated: 2024-04-04T13:46:22.208Z
@@ -17,7 +17,7 @@ dateCreated: 2024-04-04T13:46:22.208Z
 ```
 {% block mainbody %} {% endblock %}
 ```
-
+## 2.使用静态文件：
 
 
 
