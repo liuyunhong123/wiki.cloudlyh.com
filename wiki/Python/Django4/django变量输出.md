@@ -1,8 +1,8 @@
 ---
-title: django变量输出
+title: 16.django变量输出
 description: django变量输出
 published: true
-date: 2024-04-04T14:49:57.590Z
+date: 2024-04-04T14:50:28.118Z
 tags: django
 editor: markdown
 dateCreated: 2024-04-04T14:48:52.389Z
