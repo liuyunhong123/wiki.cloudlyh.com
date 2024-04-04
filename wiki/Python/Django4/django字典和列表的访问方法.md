@@ -1,8 +1,8 @@
 ---
-title: django字典和列表的访问方法
+title: 15.django字典和列表的访问方法
 description: django字典和列表的访问方法
 published: true
-date: 2024-04-04T14:24:43.350Z
+date: 2024-04-04T14:25:00.716Z
 tags: django
 editor: markdown
 dateCreated: 2024-04-04T14:23:38.891Z
