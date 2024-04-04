@@ -2,7 +2,7 @@
 title: django模板语法详细
 description: django模板语法详细
 published: true
-date: 2024-04-04T13:48:25.435Z
+date: 2024-04-04T13:48:43.765Z
 tags: django
 editor: markdown
 dateCreated: 2024-04-04T13:46:22.208Z
@@ -30,7 +30,7 @@ dateCreated: 2024-04-04T13:46:22.208Z
 ```
 <script src="{% static 'antapp/jquery.min.js' %}"></script>
 ```
-
+## 3.安全标签：
 
 
 
