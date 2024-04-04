@@ -1,8 +1,8 @@
 ---
-title: django模版语法
+title: 13.django模版语法
 description: django模版语法
 published: true
-date: 2024-03-31T14:49:17.580Z
+date: 2024-04-04T13:42:43.686Z
 tags: django
 editor: markdown
 dateCreated: 2024-03-31T14:49:17.580Z
