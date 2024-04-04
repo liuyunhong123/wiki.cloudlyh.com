@@ -2,7 +2,7 @@
 title: 18.if判断语句
 description: if判断语句
 published: true
-date: 2024-04-04T14:56:28.970Z
+date: 2024-04-04T15:08:51.924Z
 tags: django
 editor: markdown
 dateCreated: 2024-04-04T14:54:11.449Z
@@ -21,3 +21,11 @@ Athletes should be out of the locker room soon!
 No athletes.
 {% endif %}
 ```
+
+例子：
+## 模版
+![if判断01.png](/wiki/python/django/if判断01.png)
+## 视图
+![if判断02.png](/wiki/python/django/if判断02.png)
+## 效果
+![if判断03.png](/wiki/python/django/if判断03.png)
