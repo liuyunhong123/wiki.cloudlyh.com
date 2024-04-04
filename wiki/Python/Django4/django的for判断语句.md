@@ -1,8 +1,8 @@
 ---
-title: django的for判断语句
+title: 19.django的for判断语句
 description: django的for判断语句
 published: true
-date: 2024-04-04T14:55:46.375Z
+date: 2024-04-04T14:56:06.830Z
 tags: django
 editor: markdown
 dateCreated: 2024-04-04T14:55:46.375Z
