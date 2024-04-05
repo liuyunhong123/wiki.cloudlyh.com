@@ -2,7 +2,7 @@
 title: 如何加速访问github
 description: 如何加速访问github
 published: true
-date: 2024-04-05T11:32:47.530Z
+date: 2024-04-05T11:33:41.093Z
 tags: github
 editor: markdown
 dateCreated: 2024-04-05T11:29:10.048Z
@@ -34,4 +34,9 @@ C:\WINDOWS\system32\drivers\etc
 输入清除缓存命令：
 ```
 ipconfig /flushdns  
+```
+
+## 5.补充：查看host缓存命令：
+```
+ipconfig /displaydns
 ```
