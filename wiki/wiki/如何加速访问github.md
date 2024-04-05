@@ -2,7 +2,7 @@
 title: 如何加速访问github
 description: 如何加速访问github
 published: true
-date: 2024-04-05T11:29:10.048Z
+date: 2024-04-05T11:31:08.224Z
 tags: github
 editor: markdown
 dateCreated: 2024-04-05T11:29:10.048Z
@@ -18,8 +18,13 @@ dateCreated: 2024-04-05T11:29:10.048Z
 ![选择响应ip.png](/wiki/wiki/选择响应ip.png)
 
 ## 3.修改host文件
-![host文件.png](/wiki/wiki/host文件.png)
+host文件目录：
+```
+C:\WINDOWS\system32\drivers\etc
+```
 ```
 #github
 20.205.243.166 github.com
 ```
+效果图：
+![host文件.png](/wiki/wiki/host文件.png)
