@@ -2,7 +2,7 @@
 title: Ubuntu安装zerotier并配置网络
 description: Ubuntu安装zerotier并配置网络
 published: true
-date: 2024-04-15T04:53:07.214Z
+date: 2024-04-15T04:55:17.175Z
 tags: ubuntu20, zerotier
 editor: markdown
 dateCreated: 2024-04-15T04:49:41.784Z
