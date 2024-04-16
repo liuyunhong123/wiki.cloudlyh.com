@@ -2,7 +2,7 @@
 title: Ubuntu安装zerotier并配置网络
 description: Ubuntu安装zerotier并配置网络
 published: true
-date: 2024-04-15T04:55:17.175Z
+date: 2024-04-16T04:12:23.564Z
 tags: ubuntu20, zerotier
 editor: markdown
 dateCreated: 2024-04-15T04:49:41.784Z
@@ -21,5 +21,7 @@ curl -s https://install.zerotier.com | sudo bash
 zerotier-cli join xxxxxxxxxxxxx
 ```
 
-## 3.
+## 3.这里是虚拟内网的ID
+![zerotier虚拟内网id.png](/wiki/wiki/zerotier虚拟内网id.png)
 
+## 4.
