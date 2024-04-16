@@ -2,7 +2,7 @@
 title: Ubuntu安装zerotier并配置网络
 description: Ubuntu安装zerotier并配置网络
 published: true
-date: 2024-04-16T04:20:56.804Z
+date: 2024-04-16T04:25:02.949Z
 tags: ubuntu20, zerotier
 editor: markdown
 dateCreated: 2024-04-15T04:49:41.784Z
@@ -34,7 +34,13 @@ zerotier-cli join xxxxxxxxxxxxx
 ![zerotier本地win10网卡.png](/wiki/wiki/zerotier本地win10网卡.png)
 
 ## 6.测试连接
+家里的计算机内网IP：192.168.10.2
+![zerotier虚拟内网ip家里.png](/wiki/wiki/zerotier虚拟内网ip家里.png)
 
+公司的计算机内网IP：192.168.10.3
+![zerotier虚拟内网ip公司.png](/wiki/wiki/zerotier虚拟内网ip公司.png)
+
+测试延时：
 
 
 
