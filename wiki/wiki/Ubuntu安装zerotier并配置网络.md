@@ -2,7 +2,7 @@
 title: Ubuntu安装zerotier并配置网络
 description: Ubuntu安装zerotier并配置网络
 published: true
-date: 2024-04-16T04:34:27.273Z
+date: 2024-04-16T04:36:33.509Z
 tags: ubuntu20, zerotier
 editor: markdown
 dateCreated: 2024-04-15T04:49:41.784Z
@@ -31,7 +31,7 @@ zerotier-cli join xxxxxxxxxxxxx
 ## 5.本地网卡变化
 打开win10的网卡设置会发现多了一个虚拟网卡，并自动配置了你在zerotier平台设置的内网IP
 （如果没有自动配置可以手动配置一下，一般情况都是自动配置好的）
-
+![zerotier本地win10网卡.png](/wiki/wiki/zerotier本地win10网卡.png)
 
 ## 6.测试连接
 家里的计算机内网IP：192.168.10.2
