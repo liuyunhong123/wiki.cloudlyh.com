@@ -2,7 +2,7 @@
 title: Ubuntu安装zerotier并配置网络
 description: Ubuntu安装zerotier并配置网络
 published: true
-date: 2024-04-16T04:36:54.249Z
+date: 2024-04-16T04:39:59.322Z
 tags: ubuntu20, zerotier
 editor: markdown
 dateCreated: 2024-04-15T04:49:41.784Z
@@ -49,7 +49,7 @@ zerotier-cli join xxxxxxxxxxxxx
 （很简单，都是有提示怎么设置的，这里就不详细写了）
 ![zerotier路由自定义.png](/wiki/wiki/zerotier路由自定义.png)
 
-## 9.zerotier是一个国外的开源项目，很厉害，支持5大系统。
+## 9.zerotier是一个国外的开源项目，很厉害，支持5大pc操作系统加两个移动设备系统。
 官方下载地址：https://www.zerotier.com/download/
 官方下载地址截图：
 ![zerotier.png](/wiki/wiki/zerotier.png)
