@@ -2,7 +2,7 @@
 title: Ubuntu安装zerotier并配置网络
 description: Ubuntu安装zerotier并配置网络
 published: true
-date: 2024-04-16T04:25:02.949Z
+date: 2024-04-16T04:32:49.920Z
 tags: ubuntu20, zerotier
 editor: markdown
 dateCreated: 2024-04-15T04:49:41.784Z
@@ -40,7 +40,16 @@ zerotier-cli join xxxxxxxxxxxxx
 公司的计算机内网IP：192.168.10.3
 ![zerotier虚拟内网ip公司.png](/wiki/wiki/zerotier虚拟内网ip公司.png)
 
-测试延时：
+测试延时：平均11ms（延时非常低，公司是电信1000Mbps，家里是电信500Mbps）
+![zerotier虚拟内延时测试.png](/wiki/wiki/zerotier虚拟内延时测试.png)
 
+## 7.有条件可以自己搭建中转服务器
 
+## 8.路由自定义
+（很简单，都是有提示怎么设置的，这里就不详细写了）
+![zerotier路由自定义.png](/wiki/wiki/zerotier路由自定义.png)
 
+## 9.zerotier是一个国外的开源项目，很厉害，支持5大系统。
+官方下载地址：https://www.zerotier.com/download/
+官方下载地址截图：
+![zerotier.png](/wiki/wiki/zerotier.png)
