@@ -2,7 +2,7 @@
 title: Ubuntu20安装nodejs20
 description: Ubuntu20安装nodejs20
 published: true
-date: 2024-04-19T04:29:10.887Z
+date: 2024-04-19T04:29:42.157Z
 tags: ubuntu20, node.js
 editor: markdown
 dateCreated: 2024-04-19T04:29:10.887Z
@@ -31,3 +31,8 @@ dateCreated: 2024-04-19T04:29:10.887Z
    - 安装特定版本的 Node.js，例如 20：`nvm install 20`。
    - 切换到该版本：`nvm use 20`。
 以上步骤根据阿里云开发者社区、DigitalOcean、ComputingForGeeks 和 Linux-Console 的教程整理而来。安装 Node.js 时，请确保您的操作系统已更新到最新版本，以避免兼容性问题。
+
+## 4.查看node.js版本
+```
+node -v
+```
