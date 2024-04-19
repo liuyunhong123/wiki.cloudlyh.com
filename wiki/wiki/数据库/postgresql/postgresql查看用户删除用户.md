@@ -2,14 +2,14 @@
 title: postgresql查看用户删除用户
 description: postgresql查看用户删除用户
 published: true
-date: 2024-04-19T07:36:55.312Z
+date: 2024-04-19T07:37:53.983Z
 tags: postgresql数据库
 editor: markdown
 dateCreated: 2024-04-19T07:36:55.312Z
 ---
 
 在PostgreSQL数据库中，您可以使用SQL命令来查看和删除用户。请确保您具有足够的权限来执行这些操作，通常是数据库的超级用户（例如`postgres`用户）。
-### 1.查看用户
+## 1.查看用户
 要查看所有用户的列表，您可以使用`\du`命令，这通常在PostgreSQL的命令行工具`psql`中执行：
 ```sql
 \du
@@ -25,7 +25,7 @@ SELECT usename AS "User name",
        useconfig AS "Options"
 FROM pg_user;
 ```
-### 2.删除用户
+## 2.删除用户
 要删除一个用户，您可以使用`DROP ROLE`命令，如果用户同时也是一个角色的话。如果只是普通用户，使用`DROP USER`命令：
 ```sql
 DROP ROLE IF EXISTS username;
