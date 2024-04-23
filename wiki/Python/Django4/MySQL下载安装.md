@@ -2,7 +2,7 @@
 title: 20.MySQL下载安装
 description: MySQL下载安装方法
 published: true
-date: 2024-04-23T06:01:36.824Z
+date: 2024-04-23T06:06:53.072Z
 tags: mysql
 editor: markdown
 dateCreated: 2024-04-23T05:10:02.387Z
@@ -87,14 +87,16 @@ dateCreated: 2024-04-23T05:10:02.387Z
 
 ## 23.验证安装
 
-## 24.
+## 24.打开pycharm专业版
+点击右上角的数据库
+![打开pycharm专业版.png](/wiki/工具下载/mysql/打开pycharm专业版.png)
 
+## 25.选择数据源为mysql
+![选择数据源为mysql.png](/wiki/工具下载/mysql/选择数据源为mysql.png)
 
-
-
-
-
-
+## 26.输入用户和密码验证连接
+测试连接成功后点击确定
+![输入用户和密码验证连接.png](/wiki/工具下载/mysql/输入用户和密码验证连接.png)
 
 
 
