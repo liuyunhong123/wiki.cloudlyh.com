@@ -2,7 +2,7 @@
 title: 20.MySQL下载安装
 description: MySQL下载安装方法
 published: true
-date: 2024-04-23T06:09:47.835Z
+date: 2024-04-23T06:43:13.706Z
 tags: mysql
 editor: markdown
 dateCreated: 2024-04-23T05:10:02.387Z
@@ -52,10 +52,10 @@ dateCreated: 2024-04-23T05:10:02.387Z
 然后点击下一步
 ![选择开发服务器.png](/wiki/工具下载/mysql/选择开发服务器.png)
 
-# 13.选择传统模式
+## 13.选择传统模式
 ![选择传统模式.png](/wiki/工具下载/mysql/选择传统模式.png)
 
-# 14.设置root密码
+## 14.设置root密码
 因为是开发所以我这里设置的12345678
 ![设置root密码.png](/wiki/工具下载/mysql/设置root密码.png)
 
