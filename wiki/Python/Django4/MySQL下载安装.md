@@ -2,7 +2,7 @@
 title: 20.MySQL下载安装
 description: MySQL下载安装方法
 published: true
-date: 2024-04-23T05:54:39.953Z
+date: 2024-04-23T05:56:21.397Z
 tags: mysql
 editor: markdown
 dateCreated: 2024-04-23T05:10:02.387Z
@@ -84,4 +84,8 @@ dateCreated: 2024-04-23T05:10:02.387Z
 ## 21.点击下一步
 
 ## 22.安装完成
+
+## 23.验证安装
+
+
 
