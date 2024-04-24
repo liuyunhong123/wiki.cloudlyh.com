@@ -2,7 +2,7 @@
 title: 使用django-crispy-forms组件
 description: 使用django-crispy-forms时，跳转到signup页面出错
 published: true
-date: 2024-04-24T12:28:40.242Z
+date: 2024-04-24T12:29:01.818Z
 tags: django, django-crispy-forms
 editor: markdown
 dateCreated: 2024-04-24T05:26:45.542Z
@@ -45,3 +45,5 @@ CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap4"
 
 CRISPY_TEMPLATE_PACK = "bootstrap4"
 ```
+
+来源：https://pypi.org/project/crispy-bootstrap4/
