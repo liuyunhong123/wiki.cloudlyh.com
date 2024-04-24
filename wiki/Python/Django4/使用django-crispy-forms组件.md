@@ -2,7 +2,7 @@
 title: 使用django-crispy-forms组件
 description: 使用django-crispy-forms时，跳转到signup页面出错
 published: true
-date: 2024-04-24T12:29:01.818Z
+date: 2024-04-24T12:30:57.049Z
 tags: django, django-crispy-forms
 editor: markdown
 dateCreated: 2024-04-24T05:26:45.542Z
@@ -47,3 +47,46 @@ CRISPY_TEMPLATE_PACK = "bootstrap4"
 ```
 
 来源：https://pypi.org/project/crispy-bootstrap4/
+
+
+例子：
+```
+...
+
+INSTALLED_APPS = [
+    "django.contrib.admin",
+    "django.contrib.auth",
+    "django.contrib.contenttypes",
+    "django.contrib.sessions",
+    "django.contrib.messages",
+    "django.contrib.staticfiles",
+    "antapp.apps.AntappConfig",
+    "crispy_forms",
+    "crispy_bootstrap4",
+]
+
+CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap4"
+
+CRISPY_TEMPLATE_PACK = "bootstrap4"
+
+...
+```
+
+```
+TEMPLATES = [
+    {
+        "BACKEND": "django.template.backends.django.DjangoTemplates",
+        'DIRS': [os.path.join(BASE_DIR, 'templates')],
+        'APP_DIRS': True,
+        "OPTIONS": {
+            "context_processors": [
+                "django.template.context_processors.debug",
+                "django.template.context_processors.request",
+                "django.contrib.auth.context_processors.auth",
+                "django.contrib.messages.context_processors.messages",
+            ],
+        },
+    },
+]
+```
+
