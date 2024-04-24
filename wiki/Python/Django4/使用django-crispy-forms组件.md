@@ -2,18 +2,18 @@
 title: 使用django-crispy-forms组件
 description: 使用django-crispy-forms时，跳转到signup页面出错
 published: true
-date: 2024-04-24T05:27:24.890Z
+date: 2024-04-24T12:26:31.885Z
 tags: django, django-crispy-forms
 editor: markdown
 dateCreated: 2024-04-24T05:26:45.542Z
 ---
 
 # 使用django-crispy-forms组件
-在使用django-crispy-forms时，页面出错
+在使用crispy-bootstrap4的django-crispy-forms时，页面出错
 
 ## 解决方法：
 
-使用bootstrap5
+crispy-bootstrap4
 
 ### 1. 安装crispy-bootstrap5
 
