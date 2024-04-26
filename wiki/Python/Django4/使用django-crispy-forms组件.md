@@ -1,8 +1,8 @@
 ---
-title: 使用django-crispy-forms组件
+title: 22.使用django-crispy-forms组件
 description: 使用django-crispy-forms时，跳转到signup页面出错
 published: true
-date: 2024-04-24T12:30:57.049Z
+date: 2024-04-26T17:41:20.050Z
 tags: django, django-crispy-forms
 editor: markdown
 dateCreated: 2024-04-24T05:26:45.542Z
