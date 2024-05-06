@@ -2,10 +2,10 @@
 title: 20.MySQL下载安装
 description: MySQL下载安装方法
 published: true
-date: 2024-04-23T06:43:13.706Z
+date: 2024-05-06T03:23:49.357Z
 tags: mysql
 editor: markdown
-dateCreated: 2024-04-23T05:10:02.387Z
+dateCreated: 2024-04-23T05:17:21.308Z
 ---
 
 # MySQL下载安装
@@ -86,6 +86,23 @@ dateCreated: 2024-04-23T05:10:02.387Z
 ## 22.安装完成
 
 ## 23.验证安装
+
+## 23.1配置mysql
+```python
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'antProject',
+        'USER': 'root',
+        'PASSWORD': '12345678',
+        'HOST': 'localhost',
+        'PORT': '3306',
+        'OPTIONS': {
+            'charset': 'utf8mb4' # This is the relevant line
+        }
+    }
+}
+```
 
 ## 24.打开pycharm专业版
 点击右上角的数据库
