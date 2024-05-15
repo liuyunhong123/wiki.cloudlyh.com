@@ -1,8 +1,8 @@
 ---
-title: pip配置清华源下载
+title: 28.pip配置清华源下载
 description: pip配置清华源下载
 published: true
-date: 2024-05-13T17:11:38.263Z
+date: 2024-05-15T14:29:59.141Z
 tags: pip
 editor: markdown
 dateCreated: 2024-05-13T17:11:38.263Z
