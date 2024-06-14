@@ -2,7 +2,7 @@
 title: 01.Markdown教程
 description: Markdown教程
 published: true
-date: 2024-06-14T06:58:19.168Z
+date: 2024-06-14T06:58:29.514Z
 tags: markdown
 editor: markdown
 dateCreated: 2024-06-14T06:54:20.941Z
@@ -24,7 +24,8 @@ dateCreated: 2024-06-14T06:54:20.941Z
 Markdown 能被使用来撰写电子书，如：Gitbook。
 
 当前许多网站都广泛使用 Markdown 来撰写帮助文档或是用于论坛上发表消息。例如：GitHub、简书、reddit、Diaspora、Stack Exchange、OpenStreetMap 、SourceForge等。
-编辑器
+
+## 编辑器
 本教程将使用 VSCode 编辑器来讲解 Markdown 的语法，VSCode 支持 MacOS 、Windows、Linux 平台，且包含多种主题。
 
 VSCode 默认集成了 Markdown 文档编辑插件，原生就支持高亮 Markdown 的语法。
