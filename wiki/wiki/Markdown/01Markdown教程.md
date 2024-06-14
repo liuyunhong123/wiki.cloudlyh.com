@@ -2,7 +2,7 @@
 title: 01.Markdown教程
 description: Markdown教程
 published: true
-date: 2024-06-14T07:41:44.180Z
+date: 2024-06-14T07:42:05.107Z
 tags: markdown
 editor: markdown
 dateCreated: 2024-06-14T06:54:20.941Z
@@ -35,4 +35,6 @@ VSCode（全称：Visual Studio Code）是一款由微软开发且跨平台的�
 VScode 安装教程：https://www.runoob.com/w3cnote/vscode-tutorial.html
 VScode 官网地址：https://code.visualstudio.com/
 
-注：也可以使用 MarkText-- 一款简单而优雅的开源 Markdown 编辑器。
+> 注：也可以使用 MarkText-- 一款简单而优雅的开源 Markdown 编辑器。
+{.is-info}
+
