@@ -1,8 +1,8 @@
 ---
-title: MarkdownMarkdown
+title: Markdown
 description: Markdown教程
 published: true
-date: 2024-06-14T06:54:20.941Z
+date: 2024-06-14T06:54:38.091Z
 tags: markdown
 editor: markdown
 dateCreated: 2024-06-14T06:54:20.941Z
