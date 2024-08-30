@@ -2,7 +2,7 @@
 title: 怎么提交文件到gitee
 description: 怎么提交文件到gitee
 published: true
-date: 2024-08-30T06:42:39.612Z
+date: 2024-08-30T07:55:44.441Z
 tags: git, gitee
 editor: markdown
 dateCreated: 2024-08-30T06:37:56.753Z
@@ -44,19 +44,21 @@ git remote add origin git@gitee.com:xxxxxx/xxx.git
 在将本地 Git 仓库关联到 Gitee 远程仓库之后，就可以将本地文件推送到远程 Gitee 仓库。具体步骤如下：
 
 1. 使用以下命令，将要提交的文件添加到 Git 仓库中。
-
+```
+git add .
+```
 其中，“.” 表示将所有文件添加到 Git 仓库中。
 
 2. 使用以下命令，提交文件到 Git 仓库。
 ```
-git add .
+git commit -m "xxxxx"
 ```
 
 其中，“”是你对本次提交的描述信息。
 
 3. 使用以下命令，将本地文件推送到远程 Gitee 仓库。
 ```
-git commit -m "xxxxx"
+git push -u origin master
 ```
 
 其中，“master” 是你正在推送的分支名称。在初次推送到远程仓库时，需要将 -u 参数加入 push 命令中。
