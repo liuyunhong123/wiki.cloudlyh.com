@@ -2,7 +2,7 @@
 title: ubuntu20.04设置自动同步时间
 description: ubuntu20.04设置自动同步时间
 published: true
-date: 2024-09-27T13:09:06.878Z
+date: 2024-09-27T13:12:35.644Z
 tags: ubuntu20
 editor: markdown
 dateCreated: 2024-09-27T12:18:42.951Z
@@ -32,5 +32,43 @@ timedatectl set-timezone Asia/Shanghai
 chronyc sources
 ```
 ![04.查看当前同步时间.png](/wiki/wiki/ubuntu20设置自动同步时间/04.查看当前同步时间.png)
-发现Reach没有变换，说明同步失败的
+chronyc sources 输出显示所有 NTP 服务器都没有回应 (Reach = 0)，这意味着系统没有成功连接到时间服务器。尝试以下步骤来解决这个问题。
+
+## 5.手动更新时间同步源
+你可以尝试更改或添加一些可用的 NTP 服务器。编辑 /etc/chrony.conf 文件，添加一些可靠的中国 NTP 服务器，如：
+```
+vi /etc/chrony.conf
+```
+在文件中找到类似以下行：
+```
+server 0.centos.pool.ntp.org iburst
+server 1.centos.pool.ntp.org iburst
+server 2.centos.pool.ntp.org iburst
+server 3.centos.pool.ntp.org iburst
+```
+将它们替换为以下 NTP 服务器（或添加新行）：
+
+```
+server ntp.aliyun.com iburst
+server ntp1.aliyun.com iburst
+server ntp2.aliyun.com iburst
+server cn.pool.ntp.org iburst
+```
+## 6.重新启动 chronyd 服务
+编辑完后，重新启动 chronyd 服务：
+```
+systemctl restart chronyd
+```
+## 7.检查 chronyc 的时间源状态
+重新运行以下命令检查时间源是否正常：
+```
+chronyc sources
+```
+如果一切正常，你应该看到 Reach 值从 0 变为其他值（比如 377），这意味着 NTP 同步正在工作。
+
+
+
+
+
+
 
