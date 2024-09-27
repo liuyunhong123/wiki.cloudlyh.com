@@ -2,7 +2,7 @@
 title: ubuntu20.04设置自动同步时间
 description: ubuntu20.04设置自动同步时间
 published: true
-date: 2024-09-27T13:12:35.644Z
+date: 2024-09-27T13:20:51.270Z
 tags: ubuntu20
 editor: markdown
 dateCreated: 2024-09-27T12:18:42.951Z
@@ -53,6 +53,7 @@ server ntp.aliyun.com iburst
 server ntp1.aliyun.com iburst
 server ntp2.aliyun.com iburst
 server cn.pool.ntp.org iburst
+server dns1.synet.edu.cn iburst
 ```
 ## 6.重新启动 chronyd 服务
 编辑完后，重新启动 chronyd 服务：
@@ -66,6 +67,13 @@ chronyc sources
 ```
 如果一切正常，你应该看到 Reach 值从 0 变为其他值（比如 377），这意味着 NTP 同步正在工作。
 
+如果 chronyc sources 中 Reach 值依然为 0，意味着 chronyd 仍然无法连接到 NTP 服务器。可以尝试以下排查步骤：
+## 8.检查网络连接
+确保服务器能够访问外部网络，特别是 NTP 服务器。你可以通过以下命令测试是否能连通 NTP 服务器：
+```
+ping ntp.aliyun.com
+```
+## 9.如果无法 ping 通，可能是防火墙或网络配置阻止了 NTP 流量。
 
 
 
