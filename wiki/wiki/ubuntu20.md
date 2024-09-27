@@ -2,13 +2,13 @@
 title: ubuntu20.04设置自动同步时间
 description: ubuntu20.04设置自动同步时间
 published: true
-date: 2024-09-27T13:28:27.685Z
+date: 2024-09-27T13:29:52.189Z
 tags: ubuntu20
 editor: markdown
 dateCreated: 2024-09-27T12:18:42.951Z
 ---
 
-# ubuntu20.04
+# Linux设置自动同步时间
 ## 1.首先使用命令date发现时间不对
 ```
 date
