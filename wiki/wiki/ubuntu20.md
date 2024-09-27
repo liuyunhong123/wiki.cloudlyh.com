@@ -2,7 +2,7 @@
 title: ubuntu20.04设置自动同步时间
 description: ubuntu20.04设置自动同步时间
 published: true
-date: 2024-09-27T13:20:51.270Z
+date: 2024-09-27T13:28:27.685Z
 tags: ubuntu20
 editor: markdown
 dateCreated: 2024-09-27T12:18:42.951Z
@@ -73,10 +73,34 @@ chronyc sources
 ```
 ping ntp.aliyun.com
 ```
-## 9.如果无法 ping 通，可能是防火墙或网络配置阻止了 NTP 流量。
+如果无法 ping 通，可能是防火墙或网络配置阻止了 NTP 流量。
 
+## 9.检查防火墙设置
+检查防火墙状态：
+```
+firewall-cmd --state
+```
+如果防火墙正在运行，开放 NTP 端口：
+```
+firewall-cmd --permanent --add-service=ntp
+firewall-cmd --reload
+```
 
+## 10.检查 SELinux 配置
+如果你启用了 SELinux，它可能会阻止 NTP 服务。你可以暂时将 SELinux 设为允许模式，看看是否能解决问题：
+```
+setenforce 0
+```
 
+再次重启 chronyd 服务并检查同步状态：
+```
+systemctl restart chronyd
+chronyc sources
+```
+![06.再次查看同步状态.png](/wiki/wiki/ubuntu20设置自动同步时间/06.再次查看同步状态.png)
 
+可以看见Reach已经有数据了,说明同步时间成功。
+![07.时间同步成功.png](/wiki/wiki/ubuntu20设置自动同步时间/07.时间同步成功.png)
 
+## 11.教程结束
 
