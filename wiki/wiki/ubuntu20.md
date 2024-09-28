@@ -2,7 +2,7 @@
 title: ubuntu20.04设置自动同步时间
 description: ubuntu20.04设置自动同步时间
 published: true
-date: 2024-09-27T13:29:52.189Z
+date: 2024-09-28T08:32:16.648Z
 tags: ubuntu20
 editor: markdown
 dateCreated: 2024-09-27T12:18:42.951Z
@@ -26,6 +26,16 @@ timedatectl
 timedatectl set-timezone Asia/Shanghai
 ```
 ![03.设置时区为北京上海.png](/wiki/wiki/ubuntu20设置自动同步时间/03.设置时区为北京上海.png)
+
+```
+Local time: 显示本地时间为2024年9月27日星期五20:22:18 CST（北京时间）。
+Universal time: 显示世界协调时间为2024年9月27日12:22:18 UTC。
+RTC time: 实时时钟（RTC）的时间也是2024年9月27日12:22:18。
+Time zone: 当前设置的时区是Asia/Shanghai（CST, +0800），即东八区。
+System clock synchronized: 系统时钟未同步。
+NTP service: NTP服务处于活动状态。
+
+```
 
 ## 4.使用以下命令查看 chrony 的同步状态：
 ```
@@ -98,7 +108,13 @@ systemctl restart chronyd
 chronyc sources
 ```
 ![06.再次查看同步状态.png](/wiki/wiki/ubuntu20设置自动同步时间/06.再次查看同步状态.png)
-
+```
+Stratum：显示 NTP 服务器的层级，通常 0 是原子钟，层数越低表示越接近时间源。
+Poll：表示时间同步的轮询间隔，值越高表示时间同步检查的频率较低。
+Reach：表示与 NTP 服务器成功通信的记录，数值范围是 0 到 377（八进制），0 表示未成功联系服务器。
+LastRx：上次收到 NTP 服务器的响应时间。
+Last sample：时间偏移量和抖动情况，+0ns 表示没有显著的时间偏移。
+```
 可以看见Reach已经有数据了,说明同步时间成功。
 ![07.时间同步成功.png](/wiki/wiki/ubuntu20设置自动同步时间/07.时间同步成功.png)
 
