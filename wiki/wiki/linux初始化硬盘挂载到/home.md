@@ -2,7 +2,7 @@
 title: linux初始化硬盘挂载到/home
 description: linux初始化硬盘挂载到/home
 published: true
-date: 2024-10-20T14:09:37.863Z
+date: 2024-10-20T14:11:00.310Z
 tags: linux, 硬盘挂载
 editor: markdown
 dateCreated: 2024-10-20T14:09:37.863Z
