@@ -2,7 +2,7 @@
 title: 怎么查看linux是什么系统分支
 description: 怎么查看linux是什么系统分支
 published: true
-date: 2024-10-20T14:12:25.427Z
+date: 2024-10-20T14:13:29.866Z
 tags: linux
 editor: markdown
 dateCreated: 2024-10-20T14:12:25.427Z
