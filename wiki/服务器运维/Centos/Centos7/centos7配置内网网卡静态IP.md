@@ -2,7 +2,7 @@
 title: centos7配置内网网卡静态IP192.168.10.1
 description: centos7配置内网网卡静态IP192.168.10.1
 published: true
-date: 2024-03-06T11:56:58.682Z
+date: 2024-11-27T03:32:12.893Z
 tags: centos7, 网卡
 editor: markdown
 dateCreated: 2024-03-04T05:52:05.557Z
@@ -44,3 +44,14 @@ dateCreated: 2024-03-04T05:52:05.557Z
 7. 您可以使用`ip addr`命令来验证IP地址是否已经设置成功。
 8. 如果您需要配置多个IP地址，或者有更高级的配置需求，您可能还需要编辑`/etc/sysconfig/network`文件。
 请注意，如果您是在一个复杂的网络环境中，或者您不熟悉网络配置，请确保在进行更改之前咨询网络管理员或专业人士，以避免造成网络服务中断。此外，如果您是在公司或组织内部进行配置，请确保遵守相关的网络安全政策和指导原则。
+
+必要配置：
+```
+TYPE=Ethernet
+BOOTPROTO=static
+NAME=eth1
+DEVICE=eth1
+ONBOOT=yes
+IPADDR=192.168.10.1
+NETMASK=255.255.255.0
+```
